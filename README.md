@@ -9,6 +9,7 @@
 
 * [***订单处理相关***](#订单处理相关)
   * [orders.mqh](#ordersmqh)
+  * [orderProcessing.mqh](#orderProcessingmqh)
 
 
   ---
@@ -17,7 +18,7 @@
 
 ## orders.mqh
 
-- 脚本说明: 订单的buy sell buy_limit sell_limit  buy_stop sell_stop
+- 模块说明: 订单的buy sell buy_limit sell_limit  buy_stop sell_stop
 - 项目地址: https://dollerkiller.com
 
 #### 模块特点:
@@ -34,6 +35,28 @@
 ```
 sell(手数,止损,止盈,注释,订单识别码)
 sendBuyLimit(开仓价格,手数,止损,止盈,注释,订单识别码,时间) 
+```
+
+---
+
+## orderProcessing.mqh
+
+- 模块说明: 一键平仓 止损 止盈 相关
+- 项目地址: https://dollerkiller.com
+
+#### 模块特点:
+更方便的对订单进行操作
+
+
+#### 调用:
+```
+     一键删除挂单allGua()    一键获取挂单量allOrderGua() 返回int
+     修改buy单止盈止损buySet(止损,止盈)
+     修改sell单止盈止损sellSet(止损,止盈)    
+     一键全平allPing()     
+     一键平多单buyPing()     一键平空单 sellPing()                                                     
+     获取当前订单数allOrder()
+     获取多单订单数 buyOrder()  获取空单订单数sellOrder()
 ```
 
 ---
