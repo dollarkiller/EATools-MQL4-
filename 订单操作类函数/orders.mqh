@@ -5,6 +5,7 @@
 //+------------------------------------------------------------------+
 #property copyright "Copyright 2018,DollarKiller外汇研究院 DollarKiller@dollarKiller.com."
 #property link      "https://dollarkiller.com"
+#property strict
 //+------------------------------------------------------------------+
 //|                     这是一个订单操作类的模块
 //|       返回值bool    
