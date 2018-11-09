@@ -19,7 +19,7 @@
 ## orders.mqh
 
 - 模块说明: 订单的buy sell buy_limit sell_limit  buy_stop sell_stop
-- 项目地址: https://dollerkiller.com
+- 项目地址: https://www.dollarkiller.com/
 
 #### 模块特点:
 更方便的对订单进行操作
@@ -42,7 +42,7 @@ sendBuyLimit(开仓价格,手数,止损,止盈,注释,订单识别码,时间)
 ## orderProcessing.mqh
 
 - 模块说明: 一键平仓 止损 止盈 相关
-- 项目地址: https://dollerkiller.com
+- 项目地址: https://www.dollarkiller.com/
 
 #### 模块特点:
 更方便的对订单进行操作
@@ -61,6 +61,11 @@ sendBuyLimit(开仓价格,手数,止损,止盈,注释,订单识别码,时间)
 
 ---
 
+## 支持我们：
+![BITCOIN](https://upload-images.jianshu.io/upload_images/2489344-3639313b9aafccd7.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
+地址:1J45xN5oSXNm3QyyWH68Sx1hNa8HAAFntJ
+
+>根据比特币交易规则，当该交易被六个区块或以上的区块链确认后，资金就会被转入您的账户。想要加快确认过程，我们建议您选择最高的手续费金额。存入资金的手续费将不被补偿。
 ---
 Copyright (C) 2016-2018 DollerKiller <https://www.dollarkiller.com/)>
